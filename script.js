@@ -38,7 +38,7 @@ function contador(){
       boxes[i].checked ? checkLength++ : null;
       
   };
-  itemCountSpan.innerHTML = checkLength;
+  itemCountSpan.innerHTML = boxes.length;
   
   uncheckedCountSpan.innerHTML = boxes.length-checkLength;
   
